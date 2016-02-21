@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function() {
+	$(".sec").click(function() {
+		if ($(':nth-child(2)', this).is(':visible')){
+			$(':nth-child(2)', this).slideUp(250);
+		}
+		else{
+			$(':nth-child(2)', this).slideDown(250);
+		}
+	});
+});
+</script>
+<script>
+$(document).ready(function() {
+	var d=1
+	$("#sidebar").click(function() {
+		if(d==1) {
+			$("#sidebar").animate({marginLeft:"-=160px"},150);
+			$("body").animate({marginRight:"+=160px"},150);
+			d=2
+		}
+		else {
+		$("#sidebar").animate({marginLeft:"+=160px"},150);
+		$("body").animate({marginRight:"-=160px"},150);
+		d=1
+		}
+	})
+});
+</script>
+<script>
+$(document).ready(function() {
+	$("#Head").click(function() {
+		$("#Head").animate({marginTop:"100px"},150);
+		$("#Head").animate({marginTop:"0px"},150);
+	});
+});
+</script>
+<link rel='stylesheet' href='style.css'>
+</head>
+
+<!--
+To make a section, copy and paste this into the div with the id "subsets"!
+<div class="sec">
+	<h1>[Title of section]</h1>
+    <div>
+    [Whatever you want to add.  Any html code also works, even javascript]
+    </div>
+</div>
+-->
+<!--
+To make a more links section, copy and paste this into the div with the id "More links!
+<a href="[website address]" class="morelinks">[what you want to appeare]</a>
+-->
+
+<body>
+	<div id="Head">
+		<p id="MainText">Notes page</p>
+		<p id="SubText">Here are summeries of notes for each subject.  Check the more links tab for more specific notes</p>
+	</div>
+    <div id="subsets">
+    
+    <div class="sec">
+	<h1>Math</h1>
+    <div>
+    
+    </div>
+</div>
+	
+		</div>
+	</div>
+    </div>
+    <div id="sidebar">
+    <div id="morelinks">See also</div>
+    <a href="http://lscr.berkeley.edu/advice/web/standards" class="morelinks">L&S web standards and guidelines</a>
+    <a href="http://lscr.berkeley.edu/advice/web/accessibility" class="morelinks">Web site accessibility</a>
+    <a href="http://wave.webaim.org/index.jsp"  class="morelinks">WAVE Accessibility Tool</a>
+    <a href="http://juicystudio.com/services/csstest.php"  class="morelinks">Juicy Studio CSS Analyzer</a>
+    <a href="http://www.webpagesthatsuck.com/"  class="morelinks">Web Pages That Suck: Learn Good Design by Looking at Bad Design</a>
+	<a href="http://chamington.github.io/Startpage/" class="morelinks">The original version of this design</a>
+    </div>
+</body>
+</html>

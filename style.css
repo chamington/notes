@@ -1,0 +1,108 @@
+body {
+	/*background-image:url(texture.jpg);*/
+	margin-right:30px;
+	background-color:#f9f9f9;
+	
+}
+#Head {
+	height: 15.4vw; 
+	width:10vw;
+	background-color: #eee; 
+	border-radius:90vw;
+	margin-top: 0px;
+	width:99%;
+	margin-left:0.5%;
+	border-width:10px;
+	border-color:#ccc;
+	border-style:solid;
+}
+
+#MainText {
+	font-size: 6vw; 
+	text-align: center;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#SubText {
+	font-size: calc(1vw + 0px);
+	text-align: center; 
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.sec {
+	background-color:#eee;
+	border-radius:10px;
+	padding-left:0.5%;
+}
+h1 {
+	margin-left:20px;
+	color:#569;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+h2 {
+	color:#123;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:10px;
+}
+h3 {
+	width:65%;
+}
+img {
+	margin-left:100%;
+	margin-top:-100%;
+	margin-bottom:100px;
+}
+#piclable{
+	margin-left:100%;
+	margin-top:-50px;
+}
+#sitediv {
+	text-size:10px;
+}
+#subsets{
+	background-color:#ccc;
+	border-width:10px;
+	border-radius:5px;
+	border-style:solid;
+	border-color:#ccc;
+	margin-top:5px;
+}
+#bioh{
+	margin-top:0px;
+}
+#sitemain{
+	margin-bottom:0px;
+}
+#sidebar{
+	margin-left:calc(100vw - 20px);
+	width:150px;
+	height:100%;
+	background-color:#eee;
+	position:fixed;
+	border-width:12px;
+	border-color:#ccc;
+	border-style:solid;
+	top:0;
+	border-radius:6px;
+}
+#morelinks{
+	width:150px;
+	height:50px;
+	border-bottom-width:10px;
+	border-color:#ccc;
+	border-style:solid;
+	font-size:26px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.morelinks{
+	width:150px;
+	height:50px;
+	border-bottom-width:10px;
+	border-color:#ccc;
+	border-style:solid;
+	font-size:12px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	display: block;
+	margin:0px;
+}
